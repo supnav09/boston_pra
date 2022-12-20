@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>House price Prediction</title>
+    </head> -->
+    <head>
+    <title>
+        BOSTON HOUSE PRICE PREDICTION 
+    </title>
+    
+        
+    
+    </head>
+    <body 
+        style="background-color: rgb(118, 50, 50); text-align: center;font-family:verdana;font-size:15px";
+        TEXT = "WHITE";>
+
+        <h1> BOSTON HOUSE PRICE PREDICTION </h1>
+        <form method="POST" action="/boston/predict_price">
+            
+            <label>CRIM:</label>
+            <input type = "text" name = "CRIM" style="font-family:'Courier New'">
+            </select>
+
+            <br>
+            <br>
+
+            <label>ZN:</label>
+            <input type = "text" name = "ZN">
+            </select>
+
+
+            <label>INDUS:</label>
+            <input type = "text" name = "INDUS">
+            </select>
+            <br>
+            <br>
+
+            <label>CHAS:</label>
+            <input type = "text" name = "CHAS">
+            </select>
+            <br>
+            <br>
+
+
+            <label>NOX:</label>
+            <input type = "text" name = "NOX">
+            </select>
+            <br>
+            <br>
+
+
+            <label>RM:</label>
+            <input type = "text" name = "RM">
+            </select>
+            <br>
+            <br>
+
+
+            <label>AGE:</label>
+            <input type = "text" name = "AGE">
+            </select>
+            <br>
+            <br>
+
+
+            <label>DIS:</label>
+            <input type = "text" name = "DIS">
+            </select>
+            <br>
+            <br>
+
+            <label>RAD:</label>
+            <input type = "text" name = "RAD">
+            </select>
+            <br>
+            <br>
+
+            <label>TAX:</label>
+            <input type = "text" name = "TAX">
+            </select>
+            <br>
+            <br>
+
+            <label>PTRATIO:</label>
+            <input type = "text" name = "PTRATIO">
+            </select>
+            <br>
+            <br>
+
+            <label>B:</label>
+            <input type = "text" name = "B">
+            </select>
+            <br>
+            <br>
+
+            <label>LSTAT:</label>
+            <input type = "text" name = "LSTAT">
+            </select>
+            <br>
+            <br>
+
+
+            <input type = "submit" value="SUBMIT">
+
+            <br>
+
+            <p> Your boston house price is: <b> {{ price }} $$.</b> Only </p>
+
+
+        </form>
+
+
+    </body>
+</html>
